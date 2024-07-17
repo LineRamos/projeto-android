@@ -65,7 +65,7 @@ header p {
     color: white;
     max-width: 500px;
     margin: auto; /* Tem que colocar para o conteúdo ser centralizado */
-    margin-bottom: 0px; /* Nesse caso, n consegui visualizar diferença */
+    margin-bottom: 20px; /* Nesse caso, n consegui visualizar diferença */
     padding-right: 10px;
     padding-left: 10px;
     /* padding: 0px 10px 0px 10px; ---> Essas 2 configs acima podia ser esse shorthand*/
@@ -85,6 +85,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s; /* Nesse caso, não era necessário digitar o ZERO. */
+    margin-top: -20px; /* Tentei esse parâmetro pq aparecia uma barra estranha, quando tentava visualizar pelo celular */ 
 }
 
 nav a:hover { /* Para criar uma "transformação" ao passar o mouse em cima de um dos links que estão nessa regra */
