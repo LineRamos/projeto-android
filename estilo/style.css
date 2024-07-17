@@ -65,7 +65,7 @@ header p {
     color: white;
     max-width: 500px;
     margin: auto; /* Tem que colocar para o conteúdo ser centralizado */
-    margin-bottom: 20px; /* Nesse caso, n consegui visualizar diferença */
+    margin-bottom: 0px; /* Nesse caso, n consegui visualizar diferença */
     padding-right: 10px;
     padding-left: 10px;
     /* padding: 0px 10px 0px 10px; ---> Essas 2 configs acima podia ser esse shorthand*/
